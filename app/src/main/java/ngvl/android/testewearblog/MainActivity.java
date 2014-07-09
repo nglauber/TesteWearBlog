@@ -88,7 +88,7 @@ public class MainActivity extends ActionBarActivity
                 NotificationUtils.simpleNotification(this);
                 break;
             case 1:
-                NotificationUtils.notificacaoComBigView(this);
+                NotificationUtils.notificationWithBigView(this);
                 break;
             case 2:
                 NotificationUtils.notificationWithAction(this);
@@ -97,7 +97,7 @@ public class MainActivity extends ActionBarActivity
                 NotificationUtils.notificationWithReply(this);
                 break;
             case 4:
-                NotificationUtils.notificacaoWithPages(this);
+                NotificationUtils.notificationWithPages(this);
                 break;
             case 5:
                 NotificationUtils.groupedNotifications(this);

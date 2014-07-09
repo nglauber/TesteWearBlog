@@ -54,7 +54,7 @@ public class NotificationUtils {
         dispatchNotification(ctx, notificationBuilder.build(), NOTIFICATION_ID);
     }
 
-    public static void notificacaoComBigView(Context ctx) {
+    public static void notificationWithBigView(Context ctx) {
         Intent viewIntent = new Intent(ctx, MainActivity.class);
         PendingIntent viewPendingIntent =
                 PendingIntent.getActivity(ctx, 0, viewIntent, 0);
@@ -109,7 +109,7 @@ public class NotificationUtils {
         dispatchNotification(ctx, notification, NOTIFICATION_ID);
     }
 
-    public static void notificacaoWithPages(Context ctx) {
+    public static void notificationWithPages(Context ctx) {
         Intent viewIntent = new Intent(ctx, MainActivity.class);
         PendingIntent viewPendingIntent =
                 PendingIntent.getActivity(ctx, 0, viewIntent, 0);

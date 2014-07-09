@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Wear Demo</string>
+
+    <string name="error_connect_google_play">Erro ao se conectar com o Google Play.</string>
+
+    <string name="btn_save">Salvar</string>
+
+    <string-array name="notifications_example">
+        <item>Notificação simples</item>
+        <item>Notificação com BigView</item>
+        <item>Notificação com ação</item>
+        <item>Notificação com resposta</item>
+        <item>Notificação com páginas</item>
+        <item>Notificação com stack</item>
+    </string-array>
+</resources>
